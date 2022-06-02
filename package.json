@@ -1,0 +1,25 @@
+{
+  "name": "number_decomposer_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wesleirocha13/number_decomposer_api.git",
+  "author": "Weslei Souza <weslei.souza@acuttis.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/bin/server.js --ignore __tests__",
+    "start": "node ./src/bin/server.js",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "@types/jest": "^28.1.0",
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
